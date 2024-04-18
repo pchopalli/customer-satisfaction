@@ -56,5 +56,14 @@ Feature Engineering was used to select the best features. After dropping less si
             <th> 0.61 </th>
         </tr>
         </table> 
-        
+
+
+
+![customer-experience](images/roc.png)
+
+The higher AUC of the ROC curve shows that classification model did a better job at classifying
+Higher value of Precision shows that we are not classifying unhappy customer as Happy which is key for us to get better understanding of Happy customers
+
+## Conclusion
+
 The model developed provides us with the resource to predict and understand the satification of our customers. This will help us take any required corrective action towards likely unhappy customers to retain business. Upon receiving the survey based on model predictions we can see the breakdown of happy and unhappy customers and take any required actions
