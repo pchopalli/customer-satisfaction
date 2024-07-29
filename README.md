@@ -3,8 +3,11 @@
 
 As a logistic provider, the company wants to learn if it's customers are happy The expansion strategy depends on the information if the customers are happy and the only way to do that is to measure how happy each customer is. If we can predict what makes our customers happy or unhappy, we can then take necessary actions.
 
+## Problem Statement
+As a fast growing company, we want to know if our customer are happy or not. We want to be able to predict what makes our customer happy or unhappy. We will be making prediction on customer satisfaction and also see what are most affecting factors. We want to know if he a customer is happy and what factors we should be using to make that decision
 The constant feedback provided by customers to be used to develop a prediction model for customer satisfaction
 
+## Approach
 Various models were trained and validated in our approach to find the best model to solve our problem. Logistic Regression model with default parameters and then the hyperparameters were tuned, this model didn't give the best accuracy. SVM model was trained with default values, polynomial and hyperparamter tuning. SVM model with polynomial=3 gave better accuracy but it was not the best accuracy. RandomForest model was trained with default and hyperparamter tuning and the accuracy was low. VotingClassifer and AdaBoost models were also trained with accuracy not any better than other models
 
 Feature Engineering was used to select the best features. After dropping less simportant features , the model was trained using Random Forest which resulted in accuracy of 85%. Since the data set was very small it was effective to use only the best features to address the below. Below table shows all the models used for training and the associated accuracies
